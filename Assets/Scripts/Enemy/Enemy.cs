@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PhysicsObject : MonoBehaviour
+public class Enemy : Physics2DObject
 {
-    void Awake()
-    {
-
-    }
+    [SerializeField] private EntityObject _entityObject;
 
     void Start()
     {
-
+        
     }
 }
